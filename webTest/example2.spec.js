@@ -15,7 +15,7 @@ test("@Regression", async ({page})=>
     await loginPageObj.LoginToApps();
   })
 
-  test("@Smoke Test", async ({page})=>
+  test("@Smoke FORTE Test", async ({page})=>
   {
     const webActionObj =new webActions(page);
     const loginPageObj=new LoginPage(page);
